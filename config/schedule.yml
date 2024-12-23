@@ -1,0 +1,4 @@
+rebill_processor_job:
+  cron: "0 0 * * *" # Runs every day at 00:00
+  class: "RebillProcessorJob"
+  queue: default
